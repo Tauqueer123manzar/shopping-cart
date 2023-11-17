@@ -1,0 +1,281 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+body{
+    background-color:gray;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+
+}
+
+.container ul a:hover{
+      /* color: red; */
+      cursor: pointer;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 4px 4px 0px rgb(155,154,154);
+    width: 100%;
+    position: fixed;
+    height: 45px;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    margin-inline: 25px;
+    color: black;
+    font-size: 18px;
+    cursor: pointer;
+}
+nav button{
+    width: 80px;
+    height: 26px;
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+}
+nav button:hover{
+    border: 2px solid black;
+    background-color: transparent;
+    color: black;
+}
+nav ul{
+    margin-right: 26px;
+    margin-top: 12px;
+}
+nav .logo{
+    margin-left: 23px;
+}
+.login{
+    width: 350px;
+    height: 150px;
+    top: 100px;
+}
+.login input{
+    width: 70px;
+    height: 45px;
+    margin-block: 10px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 115px;
+}
+.mainText h1{
+    font-size: 53px;
+}
+.mainText h2{
+      font-size: 44px;
+      color: darkcyan;
+}
+.mainText button{
+    width: 120px;
+    height: 30px;
+    color:white;
+    background-color:red;
+    border: none;
+    
+}
+.mainText button:hover{
+    background-color:transparent;
+    border: 3px solid red;
+    color: black;
+    cursor: pointer;
+}
+.main img{
+    margin-right: -55px;
+}
+.head{
+    text-align: center;
+    margin-top: 45px;
+    padding: 55px;
+}
+.head span{
+    color: rgba(0, 255, 255, 0.977);
+}
+.card{
+    display: flex;
+    justify-content: center;
+}
+.card .trend{
+    width: 280px;
+    background-color: white;
+    margin-inline: 22px;
+}
+.trend img{
+    width: 100%;
+    height: 67%;
+}
+.trend .cardtext{
+    padding: 20px;
+}
+.trend i{
+    color: rgb(255, 234, 0);
+    font-size: 22px;
+    margin-top: 10px;
+}
+.trend button{
+    width: 90px;
+    height: 28px;
+    background-color: red;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-left: 33px;
+}
+.trend button:hover{
+    cursor: pointer;
+}
+.card .trend:hover{
+    background-color: gray;
+    color: white;
+    width: 294px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.blog{
+    display: flex;
+    justify-content: center;
+}
+.blogcard{
+    display: flex;
+    padding: 12px;
+    background-color: white;
+    margin-inline: 22px;
+    width: 500px;
+}
+.blogcard img{
+    width: 44%;
+    border-radius: 11px;
+}
+.blogcard .blogText{
+    text-align: center;
+    padding: 20px;
+}
+.blogText a{
+    width: 90px;
+    padding: 7px;
+    /* margin:0px 10px; */
+    background-color: red;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    /* margin-top: 60px; */
+    border: none;
+}
+.blogcard:hover{
+    background-color: gray;
+    color: white;
+    width: 515px;
+    min-height: auto;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.customer{
+    display: flex;
+    justify-content: center;
+}
+.customer .review{
+    /* display: flex;
+    justify-content: center; */
+    width: 280px;
+    background-color: white;
+    margin-inline: 23px;
+    margin-top: 55px;
+    padding: 24px;
+}
+.review img{
+    width: 50%;
+    border-radius: 50%;
+}
+.review i{
+    color: rgba(255, 234, 0);
+    font-size: 22px;
+    margin-top: 10px;
+}
+.contactpage{
+    border: 4px solid rgb(5, 84, 84);
+    padding: 44px;
+    text-align: center;
+    width: 500px;
+    margin-left: 30%;
+}
+.contactpage input{
+    width: 400px;
+    font-size: 18px;
+    border: 2px solid black;
+    color: black;
+    padding: 6px;
+
+}
+.contactpage button{
+    width: 100px;
+    height: 30px;
+    border: 2px solid black;
+    color: white;
+    font-size: 18px;
+    background-color: rgb(5, 72, 72);
+}
+.contactpage button:hover{
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    /* background-color: white; */
+    color: black;
+    padding: 55px;
+    background-color: rgb(3, 79, 79);
+    margin-top: 55px;
+}
+.footer .text{
+    margin-inline: 30px;
+    font-size: 20px;
+    color: white
+}
+.loginpage{
+    display: none;
+    width: 190px;
+    height: auto;
+    padding: 22px;
+    background-color: white;
+    text-align: center;
+    margin-left: 81%;
+    position: absolute;
+    top: 13;
+}
+.loginpage input{
+    width: 180px;
+    padding: 2px;
+    border: 2px solid cyan;
+    margin-top: 11px;
+}
+.loginpage button{
+    margin-top: 13px;
+    width: 80px;
+    height: 28px;
+    border: none;
+    color: white;
+    font-size: 18px;
+    background-color: red;
+    /* margin-bottom: 4px; */
+}
+.loginpage button:hover{
+    cursor: pointer;
+    background-color: black;
+}
+@media (min-width:400px) and (max-width:912px){
+    div{
+        background-color: lightskyblue;
+    }
+}
